@@ -52,6 +52,12 @@ nav {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.logo:hover {
+    color: var(--secondary-color);
 }
 
 .nav-links {
@@ -61,14 +67,18 @@ nav {
 }
 
 .nav-links a {
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
     text-decoration: none;
-    color: var(--text-color);
     font-weight: 500;
-    transition: color 0.3s;
+    transition: color 0.3s, background-color 0.3s;
 }
 
 .nav-links a:hover {
-    color: var(--primary-color);
+    color: black;
+    background-color: var(--secondary-color);
 }
 
 /* Hero Section */
@@ -77,10 +87,9 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    min-height: 90vh;
     max-width: 1400px;
-    margin: 0 auto;
-    padding: 120px 5% 60px;
+    margin: auto;
+    padding: 10vh 5%;
 }
 
 .hero-content {
@@ -396,6 +405,8 @@ footer {
 /* Ergänzung für die Über uns Seite */
 
 .about-grid {
+    max-width: 1400px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5%;
@@ -403,6 +414,8 @@ footer {
 }
 
 .team-section {
+    max-width: 1400px;
+    margin: 0 auto;
     text-align: center;
     padding: 5%;
 }
@@ -419,4 +432,118 @@ footer {
 
 .member-image {
     margin-bottom: 20px;
+}
+
+/* Mobile Navigation Styles */
+.mobile-nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 1001;
+}
+
+.hamburger {
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 20px;
+}
+
+.hamburger span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: var(--primary-color);
+    transition: all 0.3s ease;
+    left: 0;
+}
+
+.hamburger span:nth-child(1) { top: 0; }
+.hamburger span:nth-child(2) { top: 9px; }
+.hamburger span:nth-child(3) { top: 18px; }
+
+/* Hamburger Animation */
+.mobile-nav-toggle.active .hamburger span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 9px;
+}
+
+.mobile-nav-toggle.active .hamburger span:nth-child(2) {
+    opacity: 0;
+}
+
+.mobile-nav-toggle.active .hamburger span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 9px;
+}
+
+/* Mobile Menu */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .mobile-nav-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 400px;
+        height: 100vh;
+        background: white;
+        padding: 80px 2rem 2rem;
+        transition: right 0.3s ease;
+        box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    .nav-links li {
+    }
+
+    .nav-links a {
+        font-size: 1.2rem;
+        background-color: var(--primary-color);
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        border-radius: 5px;
+        display: block;
+        color: white;
+        transition: background 0.3s;
+    }
+
+    .nav-links a:hover {
+        background-color:#B7D9B1;
+        color: black;
+    }
+
+    /* Overlay für Mobile Navigation */
+    .nav-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        z-index: 999;
+    }
+
+    .nav-overlay.active {
+        display: block;
+    }
 }
