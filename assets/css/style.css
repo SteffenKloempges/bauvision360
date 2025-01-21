@@ -389,3 +389,31 @@ footer {
 .delay-2 { animation-delay: 0.4s; }
 .delay-3 { animation-delay: 0.6s; }
 .delay-4 { animation-delay: 0.8s; }
+
+/* Ergänzung für die Über uns Seite */
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+    padding: 0 5%;
+}
+
+.team-section {
+    text-align: center;
+    padding: 5%;
+}
+
+.team-section h2{
+    margin-bottom: 50px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+}
+
+.member-image {
+    margin-bottom: 20px;
+}

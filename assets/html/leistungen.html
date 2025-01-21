@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leistungen - Bauvision 360</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/modal.css">
 </head>
 <body>
     <header>
@@ -30,73 +31,73 @@
 
         <section class="services-full">
             <div class="services-container">
-                <div class="service-item">
+                <div class="service-item" data-service="trockenbau">
                     <div class="service-icon" style="background-color: #3a5d8f;"></div>
                     <h3>Trockenbau</h3>
                     <p>Professionelle Trockenbaulösungen für Wände, Decken und Raumgestaltung.</p>
                 </div>
 
-                <div class="service-item">
+                <div class="service-item" data-service="bodenbelagsarbeiten">
                     <div class="service-icon" style="background-color: #3a5d8f;"></div>
                     <h3>Bodenbelagsarbeiten</h3>
                     <p>Verlegung verschiedener Bodenbeläge nach Ihren Wünschen.</p>
                 </div>
 
-                <div class="service-item">
+                <div class="service-item" data-service="demontage-und-abbruch">
                     <div class="service-icon" style="background-color: #3a5d8f;"></div>
                     <h3>Demontage und Abbruch</h3>
                     <p>Fachgerechte Demontage und Entsorgung von Bausubstanz.</p>
                 </div>
 
-                <div class="service-item">
+                <div class="service-item" data-service="pflasterarbeiten">
                     <div class="service-icon" style="background-color: #3a5d8f;"></div>
                     <h3>Pflasterarbeiten</h3>
                     <p>Gestaltung von Außenflächen mit hochwertigen Pflastersteinen.</p>
                 </div>
 
-                <div class="service-item">
+                <div class="service-item" data-service="gartenarbeit">
                     <div class="service-icon" style="background-color: #3a5d8f;"></div>
                     <h3>Gartenarbeit</h3>
                     <p>Professionelle Gartengestaltung und -pflege.</p>
                 </div>
 
-                <div class="service-item">
+                <div class="service-item" data-service="umzuege">
                     <div class="service-icon" style="background-color: #3a5d8f;"></div>
                     <h3>Umzüge</h3>
                     <p>Komplette Umzugsservice für Privat und Gewerbe.</p>
                 </div>
 
-                <div class="service-item">
+                <div class="service-item" data-service="kuechenmontage">
                     <div class="service-icon" style="background-color: #3a5d8f;"></div>
                     <h3>Küchenmontage</h3>
                     <p>Fachgerechte Montage Ihrer neuen Küche.</p>
                 </div>
 
-                <div class="service-item">
+                <div class="service-item" data-service="malerarbeiten">
                     <div class="service-icon" style="background-color: #3a5d8f;"></div>
                     <h3>Malerarbeiten</h3>
                     <p>Hochwertige Malerarbeiten für Innen und Außen.</p>
                 </div>
 
-                <div class="service-item">
+                <div class="service-item" data-service="fliesenarbeiten">
                     <div class="service-icon" style="background-color: #3a5d8f;"></div>
                     <h3>Fliesenarbeiten</h3>
                     <p>Präzise Verlegung von Fliesen aller Art.</p>
                 </div>
 
-                <div class="service-item">
+                <div class="service-item" data-service="elektroarbeiten">
                     <div class="service-icon" style="background-color: #3a5d8f;"></div>
                     <h3>Elektroarbeiten</h3>
                     <p>Kompetente Elektroinstallationen und -reparaturen.</p>
                 </div>
 
-                <div class="service-item">
+                <div class="service-item" data-service="bauleitung">
                     <div class="service-icon" style="background-color: #3a5d8f;"></div>
                     <h3>Bauleitung</h3>
                     <p>Professionelle Koordination Ihres Bauprojekts.</p>
                 </div>
 
-                <div class="service-item">
+                <div class="service-item" data-service="bauantraege">
                     <div class="service-icon" style="background-color: #3a5d8f;"></div>
                     <h3>Bauanträge</h3>
                     <p>Unterstützung bei der Erstellung und Einreichung von Bauanträgen.</p>
@@ -112,6 +113,26 @@
             </div>
         </section>
     </main>
+
+    <!-- Modal Template -->
+    <div class="modal" id="serviceModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2 id="modalTitle"></h2>
+            </div>
+            <div class="modal-body">
+                <div id="modalDescription"></div>
+                <div class="modal-features">
+                    <h3>Unsere Leistungen umfassen:</h3>
+                    <ul id="modalFeatures"></ul>
+                </div>
+                <div class="modal-contact">
+                    <a href="kontakt.html" class="modal-cta-button">Jetzt anfragen</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <div class="footer-content">
@@ -135,5 +156,7 @@
             <p>&copy; 2024 Bauvision 360. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
+
+    <script src="../js/modal.js"></script>
 </body>
 </html> 
