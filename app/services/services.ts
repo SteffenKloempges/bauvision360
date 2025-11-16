@@ -101,7 +101,8 @@ export const serviceData: ServiceDataMap = {
       "Montage von elektrischen Rollläden",
       "Erweiterung von Steckdosen und Schalter",
       "Kabelschlitze herstellen und verlegte Kabel eingipsen",
-      "Kabel- und Schalter/Steckdosen-Installationen in unseren Trockenbau-Wänden"
+      "Kabel- und Schalter/Steckdosen-Installationen in unseren Trockenbau-Wänden",
+      "Prüfung ortsveränderlicher elektrischer Betriebsmittel bis 230 V gemäß DIN EN 50699 (VDE 0702), nach Reparatur gemäß DIN EN 50678 (VDE 0701), im Rahmen der DGUV Vorschrift 3."
     ],
     image: "/images/services/Elektro.webp",
   },
@@ -198,7 +199,8 @@ export const craftingServices: ServiceDataMap = {
       "Montage von elektrischen Rollläden",
       "Erweiterung von Steckdosen und Schalter",
       "Kabelschlitze herstellen und verlegte Kabel eingipsen",
-      "Kabel- und Schalter/Steckdosen-Installationen in unseren Trockenbau-Wänden"
+      "Kabel- und Schalter/Steckdosen-Installationen in unseren Trockenbau-Wänden",
+      "Prüfung ortsveränderlicher elektrischer Betriebsmittel bis 230 V gemäß DIN EN 50699 (VDE 0702), nach Reparatur gemäß DIN EN 50678 (VDE 0701), im Rahmen der DGUV Vorschrift 3."
     ],
     image: "/images/services/Elektro.webp",
   },

@@ -100,7 +100,7 @@ export default function Home() {
                     Sachverständiger
                   </h3>
                   <p className="text-gray-600">
-                    Passende Gutachten ür Ihren Schaden
+                    Passende Gutachten für Ihren Schaden
                   </p>
                 </div>
               </Link>

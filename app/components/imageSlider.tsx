@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 import FirstImage from '@/images/services/01_Startseite 1. Bild.webp';
 import SecondImage from '@/images/services/02_Startseite 2. Bild.webp';
-import Logo from '@/images/Bauvision_logo.svg';
+import Logo from '@/images/Bauvision_Logo_transparent.png';
 
 import 'swiper/css';
 import 'swiper/css/autoplay';
