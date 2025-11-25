@@ -11,6 +11,8 @@ const Impressum = () => {
         <p className="mb-4">Telefon: 0175 10 360 00<br />
             E-Mail: info@bauvision360.de</p>
 
+        <p className="mb-4">Umsatzsteuer-ID: DE441178756</p>
+
         <h2 className="text-2xl font-semibold mb-4">EU-Streitschlichtung</h2>
         <p className="mb-4">Die Europ&auml;ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">https://ec.europa.eu/consumers/odr/</a>.<br /> Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
 
