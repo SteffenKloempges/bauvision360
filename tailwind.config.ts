@@ -10,6 +10,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        impact: ["impact"]
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

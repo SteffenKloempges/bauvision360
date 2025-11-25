@@ -84,7 +84,6 @@ export const serviceData: ServiceDataMap = {
     features: [
       "Professionelle Entrümpelung inkl. besenreine Übergabe",
       "Schnelle und diskrete Abwicklung",
-      "Schnelle & diskrete Abwicklung",
       "Transparente Preisgestaltung",
       "Erfahrene Fahrer und Möbelpacker für Ihren Umzug",
       "Für Privat- und Gewerbekunden"
@@ -181,7 +180,6 @@ export const craftingServices: ServiceDataMap = {
     features: [
       "Professionelle Entrümpelung inkl. besenreine Übergabe",
       "Schnelle und diskrete Abwicklung",
-      "Schnelle & diskrete Abwicklung",
       "Transparente Preisgestaltung",
       "Erfahrene Fahrer und Möbelpacker für Ihren Umzug",
       "Für Privat- und Gewerbekunden"

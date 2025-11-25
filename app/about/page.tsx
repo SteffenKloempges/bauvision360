@@ -2,12 +2,14 @@ import Image from "next/image";
 import Marcel from "../../images/Marcel_Lenckowski.png";
 import FadeIn from "@/app/components/FadeIn";
 
+
+
 export default function About() {
   return (
     <main className="pt-10 font-sans text-gray-800">
       <section className="px-5 py-8 lg:py-12 text-center">
         <FadeIn>
-          <h1 className="text-4xl lg:text-5xl font-bold text-primary leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-impact text-primary leading-tight">
             Über BAUVISION<span className="text-black">360</span>
           </h1>
           <p className="text-xl text-gray-600">
