@@ -58,7 +58,7 @@ const SingleService = () => {
                 {Object.entries(dataState).map(([key, service]) => (
                     <FadeIn key={key}>
                         <div
-                            className="bg-white p-8 rounded-lg shadow-lg hover:-translate-y-1 transition-transform cursor-pointer h-full flex flex-col"
+                            className="bg-white p-8 rounded-lg shadow-lg hover:-translate-y-1 transition-transform cursor-pointer h-full flex flex-col group"
                             onClick={() => openModal(key)}
                         >
                             <div className="w-full h-48 relative mb-4 rounded overflow-hidden">
@@ -69,7 +69,7 @@ const SingleService = () => {
                                     objectFit="cover"
                                 />
                             </div>
-                            <h3 className="text-xl font-bold text-primary mb-4">
+                            <h3 className="text-xl font-bold text-primary mb-4 group-hover:text-secondary">
                                 {service.title}
                             </h3>
                             <p className="text-gray-600 flex-grow">{service.description}</p>
