@@ -97,7 +97,7 @@ export default function Home() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-primary mb-2 group-hover:text-secondary transition-all duration-300">
-                    Sachverständiger
+                    Sachverständigen Leistungen
                   </h3>
                   <p className="text-gray-600">
                     Passende Gutachten für Ihren Schaden
