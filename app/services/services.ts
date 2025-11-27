@@ -206,7 +206,7 @@ export const professionalServices: ServiceDataMap = {
   bauleitung: {
     title: "Bauleitung",
     description:
-      "Von der  und Koordinierung aller Gewerke bis zur termingerechten Ausführung und erfolgreichen Fertigstellung Ihres Projekts – wir stehen Ihnen kompetent zur Seite und sorgen für Qualität, die Ihre Erwartungen übertrifft.",
+      "Von der Planung und Koordinierung aller Gewerke bis zur termingerechten Ausführung und erfolgreichen Fertigstellung Ihres Projekts – wir stehen Ihnen kompetent zur Seite und sorgen für Qualität, die Ihre Erwartungen übertrifft.",
     features: [
       "Koordination aller Gewerke",
       "Sicherstellung der Bauqualität",

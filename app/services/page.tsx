@@ -37,6 +37,17 @@ export default function Services() {
       document.body.style.overflow = "hidden";
       return;
     }
+    const sachData = sachverstaendigenServices[serviceType];
+    if (sachData) {
+      setCurrentService(sachData);
+      setIsModalOpen(true);
+      // Kurze Verzögerung, damit die initialen Styles angewendet werden können
+      requestAnimationFrame(() => {
+        setIsModalVisible(true);
+      });
+      document.body.style.overflow = "hidden";
+      return;
+    }
   };
 
   const closeModal = () => {
