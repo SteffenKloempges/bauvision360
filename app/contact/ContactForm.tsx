@@ -324,7 +324,7 @@ export default function ContactForm() {
               </a>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:-translate-y-2 transition-transform">
-              <a href="tel:+491751036003">
+              <a href="tel:+491751036000">
                 <div className="text-primary text-3xl mb-4">📱</div>
                 <h3 className="text-xl font-semibold mb-2">Telefon</h3>
                 <p className="text-gray-600">+49 (0) 175 10 360 00</p>
