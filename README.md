@@ -5,7 +5,7 @@ Der Kunde brauchte zur Firmengründung seines Bauunternehmens, eine Webseite üb
 
 ## Genutze Technologien
 
-**Frontend:** HTML, TailwindCSS, TypeScript, NextJS
+**Frontend:** HTML, TailwindCSS, TypeScript, NextJS, CursorAI
 
 
 ## 🔗 Link zum Projekt
