@@ -43,7 +43,7 @@ export default function About() {
               <div className="">
                 <Image
                   src={Marcel}
-                  alt="Marcel Schleckkowski"
+                  alt="Marcel Lenckowski"
                   className="w-full mb-6 rounded-lg"
                   width={300}
                   height={300}
